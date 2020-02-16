@@ -1,0 +1,34 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<assembly
+    xmlns="urn:schemas-microsoft-com:asm.v3"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    authors="preid"
+    buildFilter=""
+    company="MS"
+    copyright=""
+    creationTimeStamp="2003-11-11T22:56:35.2127782-08:00"
+    description="Accessibility Downlevel manifest"
+    displayName="AccessibilityCpl"
+    lastUpdateTimeStamp="2005-07-15T20:27:45.1603430-07:00"
+    manifestVersion="1.0"
+    owners="preid"
+    supportInformation=""
+    testers=""
+    >
+  <assemblyIdentity
+      buildFilter=""
+      buildType=""
+      language="neutral"
+      name="Microsoft-Windows-accessibilitycpl-DL"
+      processorArchitecture="*"
+      publicKeyToken="$(Build.WindowsPublicKeyToken)"
+      type=""
+      version="0.0.0.0"
+      versionScope="nonSxS"
+      />
+  <migration
+      xmlns=""
+      scope="Upgrade,MigWiz,USMT"
+      >
+    <migXml>

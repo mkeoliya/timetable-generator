@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4343669" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4343669" creationTimeStamp="2018-07-09T17:40:17Z" lastUpdateTimeStamp="2018-07-09T17:40:17Z">
+	<assemblyIdentity name="Package_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4343669" applicabilityEvaluation="deep" releaseType="Update" restart="possible" selfUpdate="true" permanence="permanent">
+		<mum2:customInformation Dependency="Language Pack" xmlns:mum2="urn:schemas-microsoft-com:asm.v3"/>
+		<parent buildCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-CoreCountrySpecificEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-CoreEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-CoreNEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-EnterpriseEvalEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-EnterpriseGEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-EnterpriseNEvalEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-ProfessionalEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-ProfessionalNEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-ServerDatacenterACorEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-ServerDatacenterNanoEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-ServerStandardACorEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-UtilityVMEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<assemblyIdentity name="Microsoft-Windows-WinPE-Package" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="4343669-128_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_1_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-129_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_2_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-130_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_3_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-131_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_4_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-132_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_5_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-133_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_6_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-134_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_7_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-135_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_8_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-136_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_9_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-137_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_10_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-138_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_11_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-139_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_12_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-140_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_13_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-141_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_14_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-142_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_15_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-143_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_16_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-144_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_17_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-145_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_18_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-146_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_19_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-147_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_20_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-148_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_21_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-149_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_22_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-150_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_23_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-151_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_24_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-152_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_25_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-153_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_26_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-154_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_27_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-155_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_28_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-156_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_29_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-157_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_30_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-158_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_31_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-159_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_32_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-160_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_33_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-161_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_34_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-162_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_35_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-163_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_36_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-164_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_37_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-165_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_38_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-166_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_39_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-167_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_40_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-168_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_41_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-169_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_42_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-170_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_43_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-171_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_44_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-172_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_45_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-173_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_46_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-174_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_47_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-175_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_48_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-176_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_49_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-177_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_50_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-178_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_51_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-179_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_52_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-180_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_53_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-181_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_54_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-182_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_55_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-183_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_56_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-184_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_57_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-185_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_58_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-186_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_59_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-187_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_60_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-188_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_61_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-189_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_62_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-190_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_63_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-191_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_64_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-192_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_65_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-193_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_66_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-194_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_67_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-195_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_68_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-196_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_69_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-197_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_70_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-198_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_71_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-199_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_72_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-200_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_73_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-201_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_74_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-202_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_75_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-203_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_76_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-204_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_77_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-205_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_78_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-206_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_79_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-207_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_80_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-208_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_81_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-209_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_82_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-210_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_83_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-211_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_84_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-212_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_85_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-213_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_86_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-214_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_87_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-215_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_88_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<update name="4343669-216_neutral_PACKAGE">
+			<package integrate="hidden">
+				<assemblyIdentity name="Package_89_for_KB4343669" version="17134.165.1.2" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+			</package>
+		</update>
+		<mum2:packageExtended xmlns:mum2="urn:schemas-microsoft-com:asm.v3" completelyOfflineCapable="no" packageSize="48570532"/>
+	</package>
+</assembly>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tokens>
+  <Category name="Recognizers" categoryBase="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore">
+    <Token name="MS-1033-110-WINMO-DNN">
+      <String name="" value="Microsoft Speech Recognition Engine - en-US Embedded DNN v11.1" />
+      <Dword name="Persist Language Model Adaptation" value="00000000" />
+      <Dword name="Background Adaptation" value="00000000" />
+      <String name="RecoExtension" value="{2984A9DB-5689-43AD-877D-14999A15DD46}" />
+      <Dword name="PreferredAudioRate" value="16000" />
+      <String name="409" value="Microsoft Speech Recognition Engine - en-US Embedded DNN v11.1" />
+      <Dword name="Autodetection" value="00000000" />
+      <Dword name="Server Mode" value="00000000" />
+      <String name="AlternatesCLSID" value="{06405088-BC01-4E08-B392-5303E75090C8}" />
+      <String name="CLSID" value="{BAE3E62C-37D4-49AC-A6F1-0E485ECD6757}" />

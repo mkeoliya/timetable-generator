@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Carve Report</dc:type>
+  </metadata>
+  <creator>
+    <package>PhotoRec</package>
+    <version>7.0</version>
+    <build_environment>
+      <compiler>GCC 4.8, Cygwin 1007.34</compiler>
+      <compilation_date>2015-04-18T13:01:55</compilation_date>
+      <library name='libext2fs' version='1.42.8'/>
+      <library name='libewf' version='20120504'/>
+      <library name='libjpeg' version='libjpeg-turbo-1.3.1'/>
+      <library name='libntfs' version='10:0:0'/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Windows</os_sysname>
+      <os_release>Windows 8 (9200)</os_release>
+      <os_version>Windows 8 (9200)</os_version>
+      <host>Shruti</host>
+      <arch>i686</arch>
+      <uid>197610</uid>
+      <start_time>2018-09-15T00:54:16+0530</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>/dev/sda</image_filename>
+    <sectorsize>512</sectorsize>
+    <image_size>500107862016</image_size>
+    <volume>
+      <byte_runs>
+        <byte_run offset='0' img_offset='0' len='500107862016'/>
+      </byte_runs>
+    </volume>
+  </source>
+  <configuration>
+  </configuration>
+  <fileobject>
+    <filename>f0010248.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5246976' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010256.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5251072' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010416.reg</filename>
+    <filesize>57344</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5332992' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010528.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5390336' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010696.dll</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5476352' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010872.reg</filename>
+    <filesize>57344</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5566464' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0010984.dll</filename>
+    <filesize>1265152</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='5623808' len='1265664'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0013472.dll</filename>
+    <filesize>321024</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='6897664' len='323584'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0014120.dll</filename>
+    <filesize>240640</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7229440' len='241664'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0014608.ttf</filename>
+    <filesize>156243</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7479296' len='159744'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0014920.dll</filename>
+    <filesize>22528</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7639040' len='24576'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0014992.dll</filename>
+    <filesize>65024</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7675904' len='65536'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0015136.exe</filename>
+    <filesize>1248768</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='7749632' len='1249280'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0017720.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9072640' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0017728.dll</filename>
+    <filesize>68608</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9076736' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0017880.dll</filename>
+    <filesize>68608</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9154560' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018032.dll</filename>
+    <filesize>36864</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9232384' len='36864'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018128.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9281536' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018136.dll</filename>
+    <filesize>67584</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9285632' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018288.dll</filename>
+    <filesize>67584</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9363456' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018440.dll</filename>
+    <filesize>36864</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9441280' len='36864'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018536.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9490432' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018544.dll</filename>
+    <filesize>71168</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9494528' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018704.dll</filename>
+    <filesize>71168</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9576448' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018864.dll</filename>
+    <filesize>37376</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9658368' len='40960'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018960.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9707520' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0018968.dll</filename>
+    <filesize>71680</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9711616' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019128.dll</filename>
+    <filesize>71680</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9793536' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019288.dll</filename>
+    <filesize>37888</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9875456' len='40960'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019384.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9924608' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019392.dll</filename>
+    <filesize>66048</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='9928704' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019544.dll</filename>
+    <filesize>66048</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10006528' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019696.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10084352' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019704.dll</filename>
+    <filesize>66048</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10088448' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0019856.dll</filename>
+    <filesize>66048</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10166272' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020008.dll</filename>
+    <filesize>36352</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10244096' len='36864'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020096.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10289152' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020104.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10293248' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020256.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10371072' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020408.dll</filename>
+    <filesize>37376</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10448896' len='40960'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020504.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10498048' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020512.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10502144' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020664.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10579968' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020816.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10657792' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020824.dll</filename>
+    <filesize>67072</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10661888' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0020976.dll</filename>
+    <filesize>67072</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10739712' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0021128.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10817536' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0021136.dll</filename>
+    <filesize>68608</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10821632' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0021288.dll</filename>
+    <filesize>68608</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10899456' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0021440.dll</filename>
+    <filesize>36864</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='10977280' len='36864'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0021536.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='11026432' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0021544.ttf</filename>
+    <filesize>3695719</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='11030528' len='3698688'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0028768.dll</filename>
+    <filesize>1265152</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='14729216' len='1265664'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0031256.dll</filename>
+    <filesize>207872</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16003072' len='208896'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0031680.ttf</filename>
+    <filesize>154427</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16220160' len='155648'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0031984.ttf</filename>
+    <filesize>164347</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16375808' len='167936'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0032312.ttf</filename>
+    <filesize>162331</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16543744' len='163840'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0032632.dll</filename>
+    <filesize>55808</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16707584' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0032760.dll</filename>
+    <filesize>22528</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16773120' len='24576'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0032832.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16809984' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0032840.ttf</filename>
+    <filesize>3878411</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='16814080' len='3878912'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0040416.ttf</filename>
+    <filesize>1985867</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='20692992' len='1986560'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0044296.ttf</filename>
+    <filesize>2372999</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='22679552' len='2375680'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0048936.ttf</filename>
+    <filesize>174955</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25055232' len='176128'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0049280.ttf</filename>
+    <filesize>177415</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25231360' len='180224'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0049632.ttf</filename>
+    <filesize>143755</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25411584' len='147456'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0049920.ttf</filename>
+    <filesize>145419</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25559040' len='147456'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050208.dll</filename>
+    <filesize>55808</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25706496' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050336.dll</filename>
+    <filesize>55296</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25772032' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050464.dll</filename>
+    <filesize>55296</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25837568' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050592.dll</filename>
+    <filesize>55296</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25903104' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050720.dll</filename>
+    <filesize>55296</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='25968640' len='57344'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0050848.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26034176' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051000.dll</filename>
+    <filesize>69120</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26112000' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051152.dll</filename>
+    <filesize>67072</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26189824' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051304.dll</filename>
+    <filesize>67072</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26267648' len='69632'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051472.ttf</filename>
+    <filesize>44859</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26353664' len='45056'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051560.ttf</filename>
+    <filesize>85863</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26398720' len='86016'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051728.ttf</filename>
+    <filesize>86179</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26484736' len='90112'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0051904.ttf</filename>
+    <filesize>49091</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26574848' len='49152'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0052000.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26624000' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0052008.dll</filename>
+    <filesize>70656</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26628096' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0052168.dll</filename>
+    <filesize>70656</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26710016' len='73728'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0052328.fat</filename>
+    <filesize>4096</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26791936' len='4096'/>
+    </byte_runs>
+  </fileobject>
+  <fileobject>
+    <filename>f0052336.dll</filename>
+    <filesize>71168</filesize>
+    <byte_runs>
+      <byte_run offset='0' img_offset='26796032' len='73728'/>
+    </byte_runs>
+  </fileobject>
+</dfxml>

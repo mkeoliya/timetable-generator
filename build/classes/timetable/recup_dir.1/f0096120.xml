@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4457128" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4457128" creationTimeStamp="2018-09-08T18:09:34Z" lastUpdateTimeStamp="2018-09-08T18:09:34Z">
+	<assemblyIdentity name="Package_2662_for_KB4457128" version="10.0.1.7" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4457128" releaseType="Security Update" restart="possible" psfName="Windows10.0-KB4457128-x64.psf">
+		<parent buildCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			<parent buildCompare="EQ" integrate="separate" disposition="detect">
+				<assemblyIdentity name="Microsoft-Windows-CoreCountrySpecificEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-CoreEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-CoreNEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-EnterpriseEvalEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-EnterpriseGEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-EnterpriseNEvalEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-ProfessionalEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-ProfessionalNEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-ServerDatacenterACorEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-ServerDatacenterNanoEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-ServerStandardACorEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+				<assemblyIdentity name="Microsoft-Windows-UtilityVMEdition" version="10.0.17134.1" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35"/>
+			</parent>
+		</parent>
+		<installerAssembly name="Microsoft-Windows-ServicingStack" version="6.0.0.0" language="neutral" processorArchitecture="amd64" versionScope="nonSxS" publicKeyToken="31bf3856ad364e35"/>
+		<update name="4457128-5609_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ug-CN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="0b36d095dc5305ccccd9561d7ab86bef" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5610_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="tr-TR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b43aed3073532c9f80731bfeb7390f2e" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5611_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ne-NP" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="23c2ea25eb086d23924b4fd88436e368" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5612_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="nso-ZA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2e341c758bea12afa878648a25a497f2" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5613_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ku-Arab-IQ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2925d9492bca17f9cadb2e1aeefd475f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5614_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="rw-RW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="aed3206eb746ae1ef1f9a8f743a32a61" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5615_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="kok-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="7ea7cc035b4e4a739c9f99133ce006b6" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5616_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="az-Latn-AZ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2ab8fd436c1deb044cb5a4c993f8478a" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5617_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="bn-BD" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="1106cab3cfe6b7e1949eca5e991c20f4" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5618_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="tn-ZA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="3a39c09c1690988701ec265a7955e8a4" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5619_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sq-AL" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="3cbe7ee28774a0a5179d45e0cb8f1472" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5620_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="en-us" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="aa4017c344e73bb0df585a7c801552a8" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5621_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sr-Latn-RS" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="14876511b65b6de17356fdfdd9dc164e" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5622_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="hy-AM" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="bf767da23032edc54a13b58f1ac98d2f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5623_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ta-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="feccbbc6a9f7d2eec76e8f6d1f9a29d2" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5624_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="bn-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="908bc5fff34c55fa636bf6761ffcb862" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5625_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="uz-Latn-UZ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="d8d067ee885505afcb6a06cab282b9f2" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5626_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ca-ES-valencia" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="9a5dfbdcdf362e374f6898dff805b1d8" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5627_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="zu-ZA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="9cb15a180aa555239cb26ec6af560dc4" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5628_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="id-ID" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="a90f83cc065a64b828b091a94d5f63de" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5629_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sw-KE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b1ee1f1bb997717e33babc93359ef2b1" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5630_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="xh-ZA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="6bbcc70febefc2eb594cdb57f98c2ad6" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5631_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="nb-NO" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="28bd7d72b0157faf2f1233418a7f0d59" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5632_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="nn-NO" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="f8fb0fc8c03e4d85323c5cf0fc7c38bf" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5633_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ca-ES" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="8361c145a9a18e7e07cdad6f619ca0c9" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5634_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="be-BY" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="ae601197665a32972f2e4b0a9750e8ef" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5635_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="as-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="448ca9584ebd62e3e87734783451102c" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5636_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="fi-FI" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="7bf351f278991284d77dc52f2ecda887" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5637_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="si-LK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="311f2bbd24d2eb48f21828e1635334d9" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5638_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ar-SA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="5301c40b3bbb941d11ff75bcf360aa7d" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5639_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="kn-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="71f6fd426b4f68a1f0f699515bcd3951" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5640_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="bs-Latn-BA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="a91f3afb74cd3cee93bf24c725b71920" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5641_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="mn-MN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="63f3b041cacd235521c0e4e4abd48c66" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5642_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="hi-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="fb2c2bbed3686dfd84f0f68763ea4c1f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5643_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="bg-BG" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="6144804a973dbee3d740210462435379" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5644_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="uk-UA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="affb7ce50c71d98abc62696f291200b1" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5645_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="wo-SN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="abb6250d4d462b76708dd72460e00199" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5646_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="de-DE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="e935fdc5669d0d5026442585c4dcd124" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5647_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="mk-MK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="f4489828944339937b536207c500e9c6" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5648_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sr-Cyrl-BA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="5eff56869b2abf6084960243b14a395c" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5649_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sk-SK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2172379c00227f0933fc1ee57a71b9ee" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5650_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-EASPolicyManagerBrokerPS" version="10.0.17134.191" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="acdeab9a3e3f464fba210e2ce524d5e5" version="10.0.17134.191" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5651_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="pl-PL" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b653ebc82fe8bba33a20196fed4e6d4a" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5652_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="pa-Arab-PK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="a5c75b0e843ee181d32f914fc53e6881" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5653_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="mi-NZ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b7199f0cb7a7b68d13cd5e20f9b716ff" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5654_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sd-Arab-PK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="fcbd2340fd44160828b39d3e70d0443b" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5655_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="zh-TW" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="c83548d93ba5e806187593878cb3e70d" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5656_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="tg-Cyrl-TJ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b18182929c332c6ddad0fdff081c266b" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5657_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="vi-VN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="fe184bec47a55e096a01b31557fff5be" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5658_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="hr-HR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="40797584a2afa4c21f33490101e76678" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5659_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="zh-CN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="15a92ef480685cd23ab53c5b05f0fef0" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5660_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="mr-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="787220fc66a2eb07eaa208b36548ccd3" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5661_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="cs-CZ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="97221a2346471a9837416172a83202f9" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5662_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="it-IT" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="de00bdc85ff79f4e9f1bd5cf2bd865db" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5663_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="et-EE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="c1bd29aa1203fd982c112e699990ceb1" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5664_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-EASPolicyManagerBrokerHost" version="10.0.17134.191" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="7f826818d15be9cd18c3593d186a9cb1" version="10.0.17134.191" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5665_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="fr-CA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="5d5da5382423c1e50692686a9d14f8cc" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5666_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="fr-FR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="9c4a1ab8778f274312104ab8dd1f7680" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5667_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="lv-LV" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b2e4fb6c1708c94ba1d91b98d92b06bd" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5668_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="gl-ES" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="269ceb0746b6805fa61e7d06f74f4fbd" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5669_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ur-PK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="e9381f61f15698b2ee009374600be8d2" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5670_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ro-RO" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="979e8c137ec13b7bab585b94b3371d57" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5671_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="nl-NL" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="9fa99d8c0f5460577bf89aac00dd4a44" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5672_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="hu-HU" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="218376976851d79f0bbde05760413e4d" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5673_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="tk-TM" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="e27a42cab336a17f1818a5eec26c809f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5674_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ja-JP" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="c10f5dfc5945dbc55c86a9d6a604faa1" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5675_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="tt-RU" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="530c2abaf288648a8572e67fa1970231" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5676_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ti-ET" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="88b33981ea6c92c4726b7e0ae7a1f701" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5677_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="pa-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="b16a3cf2d32489ad8b295ab6d878fcf5" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5678_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-ActiveSyncProvider" version="10.0.17134.191" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="de1b1c9484256b5662c2620f3220d27a" version="10.0.17134.191" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5679_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="is-IS" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="628475255f437c10f086bab18833df54" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5680_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="en-GB" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="fc042d1e77b1f251ba602ac2efeb436c" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5681_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ga-IE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="758fdc27f3f47fc7faa65834d7360468" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5682_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="gd-GB" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2577ae9b59adff37c23c6f0a5bcedd29" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5683_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="kk-KZ" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="e69f32fe13af3d89baa54f900ac7c1b6" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5684_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="te-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="54139e50a3e8e44c93d7e23c369f6aa6" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5685_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="es-MX" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="86389cb21f133f9c4293599f8ff22efb" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5686_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ru-RU" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="edd200ed945f55fbf7e913539b17f8c4" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5687_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="af-ZA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="68a6942c2836214d953e06d04f3577b1" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5688_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="es-ES" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="6b8f749c15af8f4665fcd64d395caffc" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5689_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="da-DK" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="da736ad059082dad77ad63adaf16dc34" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5690_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="fa-IR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="bc3fe5d68882c2c534b6d8be827474a1" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5691_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="eu-ES" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="45dacb363f4464decf6fbd83cc8430b8" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5692_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="prs-AF" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="ca91517a4248c3f58743be7491557a78" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5693_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="quz-PE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="4d504e26b36fa554d977b07daef3592e" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5694_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ig-NG" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="ed58b85ec48d62828ef194283ba86a94" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5695_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="yo-NG" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="5f5709520a932e96ad9f0e01967aab1f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5696_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="or-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="afd093ca36031e49d340793dc472406a" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5697_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="chr-CHER-US" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="306b0ba06571104b9b1af3a22f358ab4" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5698_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sr-Cyrl-RS" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="4e84e37a308b503b460cd8f8c6c93cac" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5699_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sl-SI" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="88511a675a24393699dcb556be795de6" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5700_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="lb-LU" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="6a373769aea9d497232d4c213f244726" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5701_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="lo-LA" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="f8e80eac07008f8632a1404802d5a19f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5702_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="gu-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="faae35de331ade136746e7b6cff11237" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5703_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="mt-MT" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="50fcb435e8a63a7aa4b701e9ae66e79a" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5704_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="pt-PT" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="6c33f90fce9274c35afe590517487bfc" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5705_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ko-KR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="f2f2c386ca007f9f82466331819a7e61" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5706_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="lt-LT" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="07309e9615624668625d93a78283b25f" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5707_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="sv-SE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2f7cacbd4d41f824da003dbaeca7c899" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5708_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="am-ET" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="1a985b8631713ad932ee6afbc4a105b8" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5709_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="cy-GB" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="2767aaf7fe0b05f9fb6cefd302f19679" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5710_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="el-GR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="7eeb457987f46d0da2183ccca36e370d" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5711_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ms-MY" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="84d7770d1136dd28c42da2542410bf12" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5712_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ml-IN" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="4003938e73db2e4f6c6867e59ee735fa" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5713_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ka-GE" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="a9b4a8af83ee0d6c0d38a28fccb49446" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5714_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="km-KH" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="9c2079fc445ef07f098a0030dd136a3b" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5715_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="pt-BR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="1f737746cb1fd2166cba8263d5d5da3d" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5716_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ha-Latn-NG" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="8f0df3ced338b8cf1e5d1e7c20527c40" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5717_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="he-IL" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="3c01c1de984c03f4119f92d55688191e" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5718_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="th-TH" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="d64ad64e24ba284788712c312f98ba14" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5719_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="ky-KG" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="c9de675455e3c766ec32935197aa2ca8" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5720_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="fil-PH" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="40e8f868c2506b05d138fd6a4604c3b8" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4457128-5721_neutral">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-MCCS-SyncRes.Resources" version="10.0.17134.285" processorArchitecture="amd64" language="quc-Latn-GT" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="1eed984226d5a6b8089f7b135470a99b" version="10.0.17134.285" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+	</package>
+</assembly>
