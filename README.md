@@ -2,7 +2,7 @@
 This is a Java-based project to generate a timetable for a school based on specified constraints. Algorithm used involves greedy pre-processing (assigning a class to the least busy teacher) followed by a randomised generator to output the timetable that satisfies all constraints. Average runtime is 8 seconds for a school with 2036 students, 40 classes, 200 teachers and 45 classrooms. The project also allows for merging and splitting of classes as needed.
 It reads its initial data of teachers, classes and subjects from an Excel file.
 
-Documentation can be found [here](https://drive.google.com/open?id=1mO1_yHwe77nrEo0kxHWNdxn-zivEhhsG "PDF "). A detailed user manual, documentation and certification can be found [here](https://drive.google.com/drive/folders/12ObKKHioXFmHKC7UD4_BKSotKDg-XKTy "Drive Documentation")
+Documentation can be found [here](https://drive.google.com/open?id=1mO1_yHwe77nrEo0kxHWNdxn-zivEhhsG "PDF "). A detailed user manual, documentation and certification can be found [here](https://drive.google.com/drive/folders/12ObKKHioXFmHKC7UD4_BKSotKDg-XKTy "Drive Documentation").
 
 
 
